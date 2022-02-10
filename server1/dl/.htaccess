@@ -1,0 +1,9 @@
+<IfModule mod_autoindex.c>
+	Options -Indexes
+</IfModule>
+
+<files ~ "^.*.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfyall
+</files>
